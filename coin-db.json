@@ -1,0 +1,626 @@
+{
+  "ZRX": {
+    "name": "0x",
+    "category": "DeFi / Infrastructure",
+    "description": "An open protocol that enables the peer-to-peer exchange of assets on the Ethereum blockchain. It serves as a backend DEX plumbing for other applications.",
+    "key_feature": "Off-chain order relay with on-chain settlement for gas efficiency."
+  },
+  "1INCH": {
+    "name": "1inch",
+    "category": "DeFi / DEX Aggregator",
+    "description": "A decentralized exchange aggregator that sources liquidity from various exchanges to offer users the best possible trading rates.",
+    "key_feature": "Pathfinder algorithm that splits trades across multiple DEXes."
+  },
+  "AAVE": {
+    "name": "Aave",
+    "category": "DeFi / Lending",
+    "description": "A decentralized non-custodial liquidity market protocol where users can participate as depositors or borrowers. Depositors provide liquidity to the market to earn a passive income, while borrowers are able to borrow in an overcollateralized (perpetually) or undercollateralized (one-block liquidity) fashion.",
+    "key_feature": "Flash Loans."
+  },
+  "ACA": {
+    "name": "Acala",
+    "category": "DeFi / Polkadot",
+    "description": "An all-in-one decentralized finance network offering a blockchain platform secured by Polkadot, as well as a suite of cross-chain financial applications.",
+    "key_feature": "Acala Dollar (aUSD) stablecoin system."
+  },
+  "ACH": {
+    "name": "Achamy",
+    "category": "Payments",
+    "description": "Alchemy Pay is a hybrid crypto-fiat payment gateway that bridges the gap between traditional fiat currency and cryptocurrency economies.",
+    "key_feature": "Seamless crypto-to-fiat conversion for merchants."
+  },
+  "ALGO": {
+    "name": "Algorand",
+    "category": "Layer 1",
+    "description": "A self-sustaining, decentralized, blockchain-based network that supports a wide range of applications. It was invented by Silvio Micali, a Turing Award winner.",
+    "key_feature": "Pure Proof-of-Stake (PPoS) consensus mechanism."
+  },
+  "TLM": {
+    "name": "Alien Worlds",
+    "category": "Gaming / Metaverse",
+    "description": "A decentralized, non-fungible token (NFT) metaverse where players compete for scarce resources, Trilium (TLM), which they use to enhance their power in the game.",
+    "key_feature": "DAO governance in a gaming environment."
+  },
+  "ANKR": {
+    "name": "Ankr",
+    "category": "Infrastructure / Web3",
+    "description": "A decentralized blockchain infrastructure provider that operates an array of nodes globally distributed across over 50 Proof-of-Stake networks.",
+    "key_feature": "Easy node deployment and API access for developers."
+  },
+  "APE": {
+    "name": "ApeCoin",
+    "category": "Metaverse / Meme",
+    "description": "An ERC-20 governance and utility token used within the APE Ecosystem to empower and incentivize a decentralized community building at the forefront of web3. Associated with Bored Ape Yacht Club.",
+    "key_feature": "Governance token for the ApeDAO."
+  },
+  "APT": {
+    "name": "Aptos",
+    "category": "Layer 1",
+    "description": "A Layer 1 blockchain built with a focus on safety and scalability, utilizing the Move programming language. It aims to revitalize the Diem (Libra) technology stack.",
+    "key_feature": "Block-STM parallel execution engine."
+  },
+  "ARB": {
+    "name": "Arbitrum",
+    "category": "Layer 2 (Optimistic Rollup)",
+    "description": "A Layer 2 scaling solution for Ethereum that uses optimistic rollups to improve transaction speed and lower costs while maintaining Ethereum's security.",
+    "key_feature": "Highly compatible with Ethereum Virtual Machine (EVM)."
+  },
+  "AR": {
+    "name": "Arweave",
+    "category": "Storage / Infrastructure",
+    "description": "A decentralized storage network that seeks to offer a platform for the indefinite storage of data. It describes itself as a collectively owned hard drive that never forgets.",
+    "key_feature": "\"Permaweb\" - permanent, decentralized data storage."
+  },
+  "AVAX": {
+    "name": "Avalanche",
+    "category": "Layer 1",
+    "description": "A layer one blockchain that functions as a platform for decentralized applications and custom blockchain networks. It is a rival to Ethereum, aiming to unseat Ethereum as the most popular blockchain for smart contracts.",
+    "key_feature": "Subnets structure and high throughput."
+  },
+  "AXS": {
+    "name": "Axie Infinity",
+    "category": "Gaming",
+    "description": "A blockchain-based trading and battling game that is partially owned and operated by its players.",
+    "key_feature": "Pioneer of the Play-to-Earn (P2E) model."
+  },
+  "BAL": {
+    "name": "Balancer",
+    "category": "DeFi / AMM",
+    "description": "An automated portfolio manager, liquidity provider, and price sensor that turns the concept of an index fund on its head. Users can create pools with multiple tokens and custom weights.",
+    "key_feature": "Multi-token pools (up to 8 assets)."
+  },
+  "BAT": {
+    "name": "Basic Attention Token",
+    "category": "Advertising / Web3",
+    "description": "The token that powers a new blockchain-based digital advertising platform designed to fairly reward users for their attention while providing advertisers with a better return on their ad spend.",
+    "key_feature": "Integrated into the Brave Browser."
+  },
+  "BTC": {
+    "name": "Bitcoin",
+    "category": "Store of Value / Layer 1",
+    "description": "The first decentralized cryptocurrency. Bitcoin is a peer-to-peer online currency, meaning that all transactions happen directly between equal, independent network participants, without the need for any intermediary to permit or facilitate them.",
+    "key_feature": "Digital Gold; absolute scarcity (21 million hard cap)."
+  },
+  "BCH": {
+    "name": "Bitcoin Cash",
+    "category": "Payments / Layer 1",
+    "description": "A peer-to-peer electronic cash system that aims to become sound global money with fast payments, micro fees, privacy, and high transaction capacity (big blocks).",
+    "key_feature": "Larger block size limit compared to Bitcoin."
+  },
+  "BNB": {
+    "name": "Binance Coin",
+    "category": "Exchange Token / Layer 1",
+    "description": "The native token of the Binance ecosystem, powering the BNB Chain (formerly BSC). It uses a Proof of Staked Authority (PoSA) consensus mechanism.",
+    "key_feature": "Utility within the massive Binance exchange ecosystem and low gas fees on BNB Chain."
+  },
+  "BTT": {
+    "name": "BitTorrent",
+    "category": "File Sharing / Storage",
+    "description": "A TRON-based token that powers some of the most popular decentralized protocols and applications in the world, including BitTorrent Speed, BitTorrent File System, and DLive.",
+    "key_feature": "Incentivizes file sharing and storage."
+  },
+  "BLUR": {
+    "name": "Blur",
+    "category": "NFT Marketplace",
+    "description": "An NFT marketplace and aggregator for pro traders. It offers advanced analytics, portfolio management capabilities, and the ability to compare NFTs across marketplaces.",
+    "key_feature": "Zero fees (at launch) and speed for pro traders."
+  },
+  "BONK": {
+    "name": "Bonk",
+    "category": "Meme (Solana)",
+    "description": "The first Solana dog coin for the people, by the people. It was airdropped to the Solana community to revitalize the ecosystem after the FTX collapse.",
+    "key_feature": "Community-centric distribution."
+  },
+  "ADA": {
+    "name": "Cardano",
+    "category": "Layer 1",
+    "description": "A proof-of-stake blockchain platform: the first to be founded on peer-reviewed research and developed through evidence-based methods.",
+    "key_feature": "Ouroboros proof-of-stake protocol."
+  },
+  "TIA": {
+    "name": "Celestia",
+    "category": "Modular Blockchain / Data Availability",
+    "description": "The first modular blockchain network. It separates consensus and data availability from execution, allowing developers to deploy their own localized blockchains.",
+    "key_feature": "Data Availability Sampling (DAS)."
+  },
+  "LINK": {
+    "name": "Chainlink",
+    "category": "Infrastructure / Oracle",
+    "description": "A blockchain abstraction layer that enables universally connected smart contracts. It allows blockchains to securely interact with external data feeds, events, and payment methods.",
+    "key_feature": "Decentralized Oracle Networks (DONs)."
+  },
+  "CHZ": {
+    "name": "Chiliz",
+    "category": "Sports / Entertainment",
+    "description": "The leading digital currency for sports and entertainment, powering the world’s first scalable fan engagement & rewards platform where fans can buy & trade branded Fan Tokens.",
+    "key_feature": "Powers Socios.com and Fan Tokens (e.g., PSG, BAR)."
+  },
+  "COMP": {
+    "name": "Compound",
+    "category": "DeFi / Lending",
+    "description": "An algorithmic, autonomous interest rate protocol built for developers, to unlock a universe of open financial applications.",
+    "key_feature": "Users earn interest on crypto supplied to the liquidity pool."
+  },
+  "ATOM": {
+    "name": "Cosmos",
+    "category": "Layer 0 / Interoperability",
+    "description": "An ecosystem of blockchains that can scale and interoperate with each other. The goal is to create an \"Internet of Blockchains\".",
+    "key_feature": "Inter-Blockchain Communication (IBC) protocol."
+  },
+  "CRO": {
+    "name": "Cronos",
+    "category": "Exchange Token / Layer 1",
+    "description": "The native cryptocurrency token of Cronos Chain, a decentralized, open-source blockchain developed by Crypto.com.",
+    "key_feature": "Deep integration with Crypto.com payment and trading apps."
+  },
+  "CRV": {
+    "name": "Curve DAO Token",
+    "category": "DeFi / AMM",
+    "description": "A decentralized exchange for stablecoins that uses an automated market maker (AMM) to manage liquidity.",
+    "key_feature": "Highly efficient stablecoin swaps with low slippage."
+  },
+  "DAI": {
+    "name": "Dai",
+    "category": "Stablecoin (Decentralized)",
+    "description": "An Ethereum-based stablecoin (stable-price cryptocurrency) whose issuance and development is managed by the Maker Protocol and the MakerDAO decentralized autonomous organization.",
+    "key_feature": "Soft-pegged to the US Dollar via over-collateralization."
+  },
+  "DASH": {
+    "name": "Dash",
+    "category": "Payments / Privacy",
+    "description": "An open-source blockchain and cryptocurrency focused on offering a fast, cheap global payments network that is decentralized in nature.",
+    "key_feature": "Masternodes and PrivateSend/InstantSend."
+  },
+  "MANA": {
+    "name": "Decentraland",
+    "category": "Metaverse",
+    "description": "A virtual reality platform powered by the Ethereum blockchain. Users can create, experience, and monetize content and applications.",
+    "key_feature": "Users own the land (LAND) they build on."
+  },
+  "DOGE": {
+    "name": "Dogecoin",
+    "category": "Meme / Payments",
+    "description": "An open-source peer-to-peer digital currency, favored by Shiba Inus worldwide. Originally created as a joke, it has become a major cultural phenomenon.",
+    "key_feature": "The original meme coin; fast and cheap transactions."
+  },
+  "DYDX": {
+    "name": "dYdX",
+    "category": "DeFi / Derivatives",
+    "description": "A leading decentralized exchange that supports perpetual trading. It runs on its own app-chain in the Cosmos ecosystem (v4).",
+    "key_feature": "Decentralized order book and high performance derivatives trading."
+  },
+  "ENJ": {
+    "name": "Enjin Coin",
+    "category": "Gaming / NFT",
+    "description": "A project of Enjin, a company that provides an ecosystem of interconnected, blockchain-based gaming products.",
+    "key_feature": "Focus on managing and using virtual goods in games."
+  },
+  "EOS": {
+    "name": "EOS",
+    "category": "Layer 1",
+    "description": "A platform designed to allow developers to build decentralized apps. It prioritizes scalability and flexibility.",
+    "key_feature": "Delegated Proof of Stake (DPoS) and zero user fees (resource model)."
+  },
+  "ETH": {
+    "name": "Ethereum",
+    "category": "Layer 1 / Smart Contracts",
+    "description": "A decentralized, open-source blockchain with smart contract functionality. It is the primary platform for dApps, DeFi, and NFTs.",
+    "key_feature": "The Ethereum Virtual Machine (EVM) and massive developer ecosystem."
+  },
+  "ETC": {
+    "name": "Ethereum Classic",
+    "category": "Layer 1",
+    "description": "A hard fork of Ethereum (the original chain) that preserved the history prior to the DAO hack. Ideally, it adheres to \"Code is Law\".",
+    "key_feature": "Original Ethereum chain, Proof of Work."
+  },
+  "FTM": {
+    "name": "Fantom",
+    "category": "Layer 1",
+    "description": "A highly scalable blockchain platform for DeFi, crypto dApps, and enterprise applications.",
+    "key_feature": "Lachesis consensus mechanism (DAG-based) for instant finality."
+  },
+  "FET": {
+    "name": "Fetch.ai",
+    "category": "AI / Infrastructure",
+    "description": "An artificial intelligence lab building an open, permissionless, decentralized machine learning network with a crypto economy.",
+    "key_feature": "Autonomous Economic Agents (AEAs)."
+  },
+  "FIL": {
+    "name": "Filecoin",
+    "category": "Storage",
+    "description": "A decentralized storage system that aims to \"store humanity's most important information.\" A peer-to-peer network for data storage.",
+    "key_feature": "Marketplace for unused storage space."
+  },
+  "FLOW": {
+    "name": "Flow",
+    "category": "Layer 1 / NFT",
+    "description": "A fast, decentralized, and developer-friendly blockchain, designed as the foundation for a new generation of games, apps, and the digital assets that power them.",
+    "key_feature": "Created by Dapper Labs (NBA Top Shot, CryptoKitties)."
+  },
+  "FRAX": {
+    "name": "Frax",
+    "category": "Stablecoin / DeFi",
+    "description": "The first fractional-algorithmic stablecoin system. It is open-source, permissionless, and entirely on-chain.",
+    "key_feature": "Hybrid backing (part collateral, part algorithmic)."
+  },
+  "FXS": {
+    "name": "Frax Share",
+    "category": "DeFi / Governance",
+    "description": "The governance token of the Frax protocol, which accrues fees, seigniorage revenue, and excess collateral value.",
+    "key_feature": "Governance and value accrual for the Frax ecosystem."
+  },
+  "GALA": {
+    "name": "Gala",
+    "category": "Gaming",
+    "description": "Gala Games aims to take the gaming industry in a different direction by giving players back control over their games.",
+    "key_feature": "\"Fun First\" approach to blockchain gaming."
+  },
+  "GMX": {
+    "name": "GMX",
+    "category": "DeFi / Derivatives",
+    "description": "A decentralized spot and perpetual exchange that supports low swap fees and zero price impact trades.",
+    "key_feature": "Multi-asset liquidity pool (GLP)."
+  },
+  "GRT": {
+    "name": "The Graph",
+    "category": "Infrastructure / Indexing",
+    "description": "An indexing protocol for querying networks like Ethereum and IPFS. Anyone can build and publish open APIs, called subgraphs, making data easily accessible.",
+    "key_feature": "The \"Google of Blockchains\" for data querying."
+  },
+  "HBAR": {
+    "name": "Hedera",
+    "category": "Layer 1 (DAG)",
+    "description": "A public network that uses a new technology called Hashgraph, not blockchain, to achieve high throughput and low fees.",
+    "key_feature": "Hashgraph consensus (gossip about gossip)."
+  },
+  "HNT": {
+    "name": "Helium",
+    "category": "DePIN",
+    "description": "A decentralized blockchain-powered network for Internet of Things (IoT) devices.",
+    "key_feature": "\"The People's Network\" built by user-operated hotspots."
+  },
+  "ILV": {
+    "name": "Illuvium",
+    "category": "Gaming / Metaverse",
+    "description": "An open-world exploration, NFT creature collector, and autobattler game built on the Ethereum blockchain.",
+    "key_feature": "AAA-quality graphics in a blockchain game."
+  },
+  "IMX": {
+    "name": "Immutable",
+    "category": "Layer 2 / Gaming / NFT",
+    "description": "A Layer 2 scaling solution for NFTs on Ethereum. It offers instant trading, massive scalability, and zero gas fees for minting and trading.",
+    "key_feature": "ZK-Rollup technology specialized for gaming."
+  },
+  "INJ": {
+    "name": "Injective",
+    "category": "Layer 1 / DeFi",
+    "description": "An open, interoperable layer-one blockchain built for finance applications.",
+    "key_feature": "Optimized for DeFi with a built-in order book."
+  },
+  "ICP": {
+    "name": "Internet Computer",
+    "category": "Layer 1 / Computing",
+    "description": "A blockchain that runs at web speed with unbounded capacity. It aims to recreate the web by hosting smart contracts that run directly on the internet.",
+    "key_feature": "Replaces traditional IT stack (cloud services)."
+  },
+  "IOTA": {
+    "name": "IOTA",
+    "category": "IoT / DAG",
+    "description": "A distributed ledger (The Tangle) designed to record and execute transactions between machines and devices in the Internet of Things (IoT) ecosystem.",
+    "key_feature": "Feeless transactions; no blocks (DAG)."
+  },
+  "JASMY": {
+    "name": "JasmyCoin",
+    "category": "IoT / Data",
+    "description": "A project developing an IoT platform on the blockchain to protect data sovereignty.",
+    "key_feature": "\"Data Democracy\" - users control and monetize their own data."
+  },
+  "JUP": {
+    "name": "Jupiter",
+    "category": "DeFi / Solana",
+    "description": "The leading liquidity aggregator on Solana, offering best price swaps, limit orders, DCA, and perp trading.",
+    "key_feature": "Massive routing optimization on Solana."
+  },
+  "KAS": {
+    "name": "Kaspa",
+    "category": "Layer 1 / PoW",
+    "description": "A proof-of-work cryptocurrency which implements the GHOSTDAG protocol. It is a blockDAG, meaning blocks are not just a chain but a graph.",
+    "key_feature": "Extremely high block rates and instant confirmation times."
+  },
+  "KAVA": {
+    "name": "Kava",
+    "category": "Layer 1 / DeFi",
+    "description": "A Layer-1 blockchain that combines the speed and interoperability of Cosmos with the developer power of Ethereum.",
+    "key_feature": "Co-chain architecture (EVM + Cosmos SDK)."
+  },
+  "KCS": {
+    "name": "KuCoin Token",
+    "category": "Exchange Token",
+    "description": "The native token of KuCoin exchange. Holders get daily dividends from trading fees.",
+    "key_feature": "Daily bonus rewards for holders."
+  },
+  "LDO": {
+    "name": "Lido DAO",
+    "category": "DeFi / Liquid Staking",
+    "description": "A liquid staking solution for Ethereum (and others). It allows users to stake their ETH while receiving stETH tokens in return, which can be used in DeFi.",
+    "key_feature": "Leader in Liquid Staking."
+  },
+  "LTC": {
+    "name": "Litecoin",
+    "category": "Payments / Layer 1",
+    "description": "A peer-to-peer cryptocurrency often described as the \"silver to Bitcoin's gold\".",
+    "key_feature": "Faster block generation (2.5m) and Scrypt hashing algorithm."
+  },
+  "LRC": {
+    "name": "Loopring",
+    "category": "Layer 2 / DeFi",
+    "description": "A zkRollup protocol for decentralized exchanges on Ethereum.",
+    "key_feature": "High throughput DEX technology."
+  },
+  "MKR": {
+    "name": "Maker",
+    "category": "DeFi / Governance",
+    "description": "The governance token of the MakerDAO and Maker Protocol—a decentralized organization and a software platform upon the Ethereum blockchain that allows users to issue and manage the DAI stablecoin.",
+    "key_feature": "Governance of the DAI stablecoin system."
+  },
+  "MANTA": {
+    "name": "Manta Network",
+    "category": "Layer 2 / Privacy / Modular",
+    "description": "A modular blockchain on Ethereum for ZK applications.",
+    "key_feature": "Focus on Zero-Knowledge (ZK) privacy and scalability for dApps."
+  },
+  "MNT": {
+    "name": "Mantle",
+    "category": "Layer 2",
+    "description": "A high-performance Ethereum Layer 2 network built with modular architecture.",
+    "key_feature": "Modular design separating execution, availability, and settlement."
+  },
+  "XMR": {
+    "name": "Monero",
+    "category": "Privacy / Payments",
+    "description": "A secure, private, and untraceable currency. Unlike Bitcoin, Monero obscures sender, recipient, and amount of every transaction.",
+    "key_feature": "Ring signatures and stealth addresses for privacy."
+  },
+  "EGLD": {
+    "name": "MultiversX",
+    "category": "Layer 1",
+    "description": "A blockchain protocol for distributed apps and enterprise use cases. Formerly Elrond.",
+    "key_feature": "Adaptive State Sharding."
+  },
+  "NEAR": {
+    "name": "Near Protocol",
+    "category": "Layer 1",
+    "description": "A layer-one blockchain that was designed as a community-run cloud computing platform and ensures high speeds, low fees, and progressive UX.",
+    "key_feature": "Nightshade sharding and human-readable account names."
+  },
+  "NEO": {
+    "name": "Neo",
+    "category": "Layer 1",
+    "description": "Often called the \"Chinese Ethereum\", it's an open-source platform for the \"Smart Economy\".",
+    "key_feature": "Dual token system (NEO/GAS) and digital identity focus."
+  },
+  "NOT": {
+    "name": "Notcoin",
+    "category": "Gaming / Meme",
+    "description": "A viral clicker game on Telegram that onboarded millions of users to the TON ecosystem.",
+    "key_feature": "Massive \"Tap-to-Earn\" adoption."
+  },
+  "OP": {
+    "name": "Optimism",
+    "category": "Layer 2 (Optimistic Rollup)",
+    "description": "A layer-two blockchain on top of Ethereum. It benefits from the security of the Ethereum mainnet and helps scale the Ethereum ecosystem by using optimistic rollups.",
+    "key_feature": "The OP Stack (framework for building modular chains)."
+  },
+  "ORDI": {
+    "name": "Ordinals",
+    "category": "Bitcoin / Meme",
+    "description": "The first BRC-20 token on the Bitcoin network. It represents the concept of data inscription on Satoshis.",
+    "key_feature": "Inscriptions directly on Bitcoin blocks."
+  },
+  "CAKE": {
+    "name": "PancakeSwap",
+    "category": "DeFi / AMM",
+    "description": "A decentralized exchange exchange for swapping BEP-20 tokens on BNB Chain.",
+    "key_feature": "Leading DEX on BNB Chain with gamified features."
+  },
+  "PEPE": {
+    "name": "Pepe",
+    "category": "Meme",
+    "description": "A deflationary meme coin launched on Ethereum. A tribute to the Pepe the Frog internet meme.",
+    "key_feature": "\"Make Memecoins Great Again\" branding."
+  },
+  "DOT": {
+    "name": "Polkadot",
+    "category": "Layer 0 / Interoperability",
+    "description": "An open-source sharding multichain protocol that connects and secures a network of specialized blockchains (parachains).",
+    "key_feature": "Parachain structure and Relay Chain security."
+  },
+  "MATIC": {
+    "name": "Polygon (MATIC)",
+    "category": "Layer 2 / Scaling",
+    "description": "A stack of protocols designed to fix Ethereum's scalability issues. The core product is the Polygon PoS chain.",
+    "key_feature": "High speed, low cost EVM compatibility. Aggregation Layer (AggLayer)."
+  },
+  "POL": {
+    "name": "Polygon (POL)",
+    "category": "Layer 2 / Scaling",
+    "description": "The upgraded token for the Polygon ecosystem, replacing MATIC.",
+    "key_feature": "Fuel for Polygon 2.0 ecosystem chains."
+  },
+  "PYTH": {
+    "name": "Pyth Network",
+    "category": "Infrastructure / Oracle",
+    "description": "A first-party financial oracle network designed to publish continuous real-time market data on-chain in a tamper-resistant environment.",
+    "key_feature": "High fidelity data for DeFi."
+  },
+  "QNT": {
+    "name": "Quant",
+    "category": "Interoperability / Enterprise",
+    "description": "A project meant to connect blockchains and networks on a global scale, without reducing the efficiency and interoperability of the network.",
+    "key_feature": "Overledger operating system."
+  },
+  "RNDR": {
+    "name": "Render",
+    "category": "DePIN / AI / Rendering",
+    "description": "A distributed GPU rendering network built on top of the Ethereum blockchain (migrated to Solana), aiming to connect artists and studios in need of GPU compute power with mining partners willing to rent their GPU capabilities.",
+    "key_feature": "Decentralized cloud rendering."
+  },
+  "RON": {
+    "name": "Ronin",
+    "category": "Layer 1 / Gaming",
+    "description": "An EVM blockchain crafted for developers building games with player-owned economies.",
+    "key_feature": "Optimized for massive gaming throughput (e.g., Axie Infinity)."
+  },
+  "SAND": {
+    "name": "Sandbox",
+    "category": "Metaverse",
+    "description": "A blockchain-based virtual world allowing users to create, build, buy and sell digital assets in the form of a game.",
+    "key_feature": "Voxel-based user-generated content."
+  },
+  "SEI": {
+    "name": "Sei",
+    "category": "Layer 1 / Trading",
+    "description": "A sector-specific Layer 1 blockchain, specialized for trading to give exchanges an unfair advantage.",
+    "key_feature": "Twin-turbo consensus (super fast)."
+  },
+  "SHIB": {
+    "name": "Shiba Inu",
+    "category": "Meme",
+    "description": "An Ethereum-based altcoin that features the Shiba Inu hunting dog. A rival to Dogecoin.",
+    "key_feature": "\"The Dogecoin Killer\" ecosystem (Shibarium)."
+  },
+  "SOL": {
+    "name": "Solana",
+    "category": "Layer 1",
+    "description": "A highly functional open source project that banks on blockchain technology’s permissionless nature to provide decentralized finance (DeFi) solutions.",
+    "key_feature": "Proof of History (PoH) allowing incredible speed and low cost."
+  },
+  "STX": {
+    "name": "Stacks",
+    "category": "Bitcoin Layer 2",
+    "description": "A Bitcoin Layer for smart contracts. It enables smart contracts and decentralized apps to use Bitcoin as an asset and settle transactions on the Bitcoin blockchain.",
+    "key_feature": "Bringing smart contracts to Bitcoin (PoX consensus)."
+  },
+  "STRK": {
+    "name": "Starknet",
+    "category": "Layer 2 (ZK Rollup)",
+    "description": "A validity-rollup (also known as ZK-Rollup) Layer 2 network that operates on top of Ethereum.",
+    "key_feature": "STARK proofs for massive scalability."
+  },
+  "SUI": {
+    "name": "Sui",
+    "category": "Layer 1",
+    "description": "A first-of-its-kind Layer 1 blockchain and smart contract platform designed from the bottom up to make digital asset ownership fast, private, secure, and accessible to everyone. Used Move language.",
+    "key_feature": "Object-centric data model."
+  },
+  "SNX": {
+    "name": "Synthetix",
+    "category": "DeFi / Derivatives",
+    "description": "A derivatives liquidity protocol on Ethereum that enables the issuance and trading of synthetic assets.",
+    "key_feature": "Minting Synths (sUSD, sBTC)."
+  },
+  "LUNC": {
+    "name": "Terra Classic",
+    "category": "Layer 1 (Legacy)",
+    "description": "The original Terra chain which collapsed in May 2022. It is now community-maintained.",
+    "key_feature": "A history lesson in algorithmic stablecoin failure."
+  },
+  "USDT": {
+    "name": "Tether",
+    "category": "Stablecoin",
+    "description": "A blockchain-based cryptocurrency whose tokens in circulation are backed by an equivalent amount of traditional fiat currencies like the U.S. dollar, the euro, or the Japanese yen.",
+    "key_feature": "Highest liquidity stablecoin."
+  },
+  "XTZ": {
+    "name": "Tezos",
+    "category": "Layer 1",
+    "description": "A blockchain network that's based on smart contracts, in a way that's efficient enough to process transactions with very little energy consumption.",
+    "key_feature": "Self-amendment (upgrades without hard forks)."
+  },
+  "THETA": {
+    "name": "Theta Network",
+    "category": "Video / Infrastructure",
+    "description": "A blockchain powered network purpose-built for video streaming.",
+    "key_feature": "Decentralized video delivery network."
+  },
+  "TON": {
+    "name": "Toncoin",
+    "category": "Layer 1",
+    "description": "The Open Network. A decentralized and open internet platform. continued by the community after Telegram abandoned the original project.",
+    "key_feature": "Deep integration with Telegram messenger."
+  },
+  "TRX": {
+    "name": "Tron",
+    "category": "Layer 1",
+    "description": "A blockchain-based decentralized operating system much like Ethereum that aims to advance the decentralization of the Internet and its infrastructure.",
+    "key_feature": "High throughput, commonly used for USDT transfers."
+  },
+  "UNI": {
+    "name": "Uniswap",
+    "category": "DeFi / AMM",
+    "description": "A popular decentralized trading protocol, known for its role in facilitating automated trading of decentralized finance (DeFi) tokens.",
+    "key_feature": "The pioneer of the AMM (Automated Market Maker) model."
+  },
+  "USDC": {
+    "name": "USDC",
+    "category": "Stablecoin",
+    "description": "A digital stablecoin that is pegged to the United States dollar. Managed by Circle.",
+    "key_feature": "Regulatory compliance and transparency."
+  },
+  "VET": {
+    "name": "VeChain",
+    "category": "Supply Chain",
+    "description": "A blockchain platform designed to enhance supply chain management and business processes.",
+    "key_feature": "Tracking real-world products via RFID/NFC."
+  },
+  "WLD": {
+    "name": "Worldcoin",
+    "category": "Identity",
+    "description": "An open-source protocol supported by a global community of developers, individuals, economists, and technologists committed to expanding participation in, and access to, the global economy.",
+    "key_feature": "Proof of Personhood via \"The Orb\" (iris scan)."
+  },
+  "WBTC": {
+    "name": "Wrapped Bitcoin",
+    "category": "DeFi / Asset",
+    "description": "An ERC-20 token meant to represent Bitcoin on the Ethereum blockchain.",
+    "key_feature": "Using Bitcoin value in Ethereum DeFi."
+  },
+  "XRP": {
+    "name": "XRP",
+    "category": "Payments",
+    "description": "A digital technology and payment processing protocol. It is designed for the financial industry to facilitate fast, low-cost cross-border transfers.",
+    "key_feature": "Use by banks for liquidity (ODL)."
+  },
+  "ZEC": {
+    "name": "Zcash",
+    "category": "Privacy",
+    "description": "A privacy-protecting, digital currency built on strong science. It allows detailed transaction data to be encrypted.",
+    "key_feature": "zk-SNARKs for optional privacy."
+  },
+  "ZIL": {
+    "name": "Zilliqa",
+    "category": "Layer 1",
+    "description": "A public, permissionless blockchain that is designed to offer high throughput with the ability to complete thousands of transactions per second.",
+    "key_feature": "The first public blockchain to implement sharding."
+  }
+}
